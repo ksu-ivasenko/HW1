@@ -41,5 +41,23 @@ public class Main {
 
         //Задание 5
 
+        int incomeMasha = 67_760;
+        int incomeDenis = 83_690;
+        int incomeKristina = 76_230;
+
+        float newincomeMasha = incomeMasha * 1.1f;
+        float differenceMasha = newincomeMasha * 12 - incomeMasha * 12;
+        System.out.println ("Маша теперь получает " + newincomeMasha + " рублей в месяц. Годовой доход вырос на " + differenceMasha);
+
+        float newincomeDenis = incomeDenis * 1.1f;
+        float differenceDenis = newincomeDenis * 12 - incomeDenis * 12;
+        System.out.println ("Денис теперь получает " + newincomeDenis + " рублей в месяц. Годовой доход вырос на " + differenceDenis);
+
+        float newincomeKristina = incomeKristina * 1.1f;
+        float differenceKristina = newincomeKristina * 12 - incomeKristina * 12;
+        System.out.println("Кристина теперь получает " + newincomeKristina + "рублей в месяц. Годовой доход вырос на " + differenceKristina);
+
+
+
     }
 }
